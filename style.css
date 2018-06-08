@@ -1,0 +1,84 @@
+body {
+  background-color: mediumblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 40px;
+  color: white;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  line-height: 40px;
+}
+#logoName {
+  font-size: 18px;
+}
+#subscribe {
+  border-radius: 100px;
+  border-color: white;
+  background-color: transparent;
+  padding: 15px 25px 15px 25px;
+  color: white;
+  font-weight: bold;
+}
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  padding: 20px;
+}
+#main {
+  text-align: center;
+  margin-left: 17vw;
+  margin-right: 17vw;
+  padding: 13vh;
+  line-height: 30px;
+}
+#intro {
+  padding: 10px;
+}
+#start {
+  border-radius: 100px;
+  background-color: white;
+  padding: 20px 40px 20px 40px;
+  color: mediumblue;
+}
+#lowerHalf {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#scroll {
+  padding-top: 100px;
+  padding-left: 48%;
+  display: inline-block;
+  /* float: right;
+  text-align: right;
+  align-content: center; */
+}
+#bottomLeft {
+  transform: rotate(270deg);
+  margin-left: 15px;
+  margin-top: 80px;
+  font-weight: bold;
+  position: fixed;
+}
+
+#bottomRight {
+  float: right;
+  writing-mode: vertical-lr;
+  padding: 20px;
+}
+.fa {
+  color: white;
+  border-color: white;
+  border: 1.5px solid;
+  padding: 15px;
+  border-radius: 100px;
+}
